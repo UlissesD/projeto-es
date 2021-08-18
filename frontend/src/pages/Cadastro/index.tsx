@@ -24,7 +24,7 @@ export function CadastroAluno() {
   const [ disabled, setDisabled ] = useState(true)
 
   function handleConfirm() {
-    alert("Você confirma que não está matrículado em disciplinas no horário da célula?")
+    alert("Você confirma que não está matrículado em disciplinas no horário da célula!?")
     setDisabled(!disabled)
   }
 
